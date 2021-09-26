@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		89A339E3270095A600FCA83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A339E2270095A600FCA83E /* AppDelegate.swift */; };
 		89A339E5270095A600FCA83E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A339E4270095A600FCA83E /* SceneDelegate.swift */; };
-		89A339E7270095A600FCA83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A339E6270095A600FCA83E /* ViewController.swift */; };
+		89A339E7270095A600FCA83E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A339E6270095A600FCA83E /* ProductsViewController.swift */; };
 		89A339EA270095A600FCA83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A339E8270095A600FCA83E /* Main.storyboard */; };
 		89A339EC270095A900FCA83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A339EB270095A900FCA83E /* Assets.xcassets */; };
 		89A339EF270095A900FCA83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A339ED270095A900FCA83E /* LaunchScreen.storyboard */; };
+		89A339F827009F9800FCA83E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A339F727009F9800FCA83E /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89A339DF270095A600FCA83E /* TestingInAppPurchases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingInAppPurchases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A339E2270095A600FCA83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A339E4270095A600FCA83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89A339E6270095A600FCA83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89A339E6270095A600FCA83E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		89A339E9270095A600FCA83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89A339EB270095A900FCA83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A339EE270095A900FCA83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A339F0270095A900FCA83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A339F727009F9800FCA83E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		89A339F92700AA6A00FCA83E /* ProductConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductConfiguration.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +59,25 @@
 		89A339E1270095A600FCA83E /* TestingInAppPurchases */ = {
 			isa = PBXGroup;
 			children = (
+				89A339F627009F8500FCA83E /* Common */,
 				89A339E2270095A600FCA83E /* AppDelegate.swift */,
 				89A339E4270095A600FCA83E /* SceneDelegate.swift */,
-				89A339E6270095A600FCA83E /* ViewController.swift */,
+				89A339E6270095A600FCA83E /* ProductsViewController.swift */,
 				89A339E8270095A600FCA83E /* Main.storyboard */,
 				89A339EB270095A900FCA83E /* Assets.xcassets */,
 				89A339ED270095A900FCA83E /* LaunchScreen.storyboard */,
 				89A339F0270095A900FCA83E /* Info.plist */,
 			);
 			path = TestingInAppPurchases;
+			sourceTree = "<group>";
+		};
+		89A339F627009F8500FCA83E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				89A339F727009F9800FCA83E /* Product.swift */,
+				89A339F92700AA6A00FCA83E /* ProductConfiguration.storekit */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A339E7270095A600FCA83E /* ViewController.swift in Sources */,
+				89A339E7270095A600FCA83E /* ProductsViewController.swift in Sources */,
+				89A339F827009F9800FCA83E /* Product.swift in Sources */,
 				89A339E3270095A600FCA83E /* AppDelegate.swift in Sources */,
 				89A339E5270095A600FCA83E /* SceneDelegate.swift in Sources */,
 			);

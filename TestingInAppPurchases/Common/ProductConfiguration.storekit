@@ -1,0 +1,48 @@
+{
+  "identifier" : "B4091D64",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6682537F",
+      "localizations" : [
+        {
+          "description" : "Remove all the in-app advertisements",
+          "displayName" : "Remove ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.demo.removeAds",
+      "referenceName" : "Remove ads",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "EE2170EC",
+      "localizations" : [
+        {
+          "description" : "Unlock everything within the app",
+          "displayName" : "Unlock everything",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.demo.unlockEverything",
+      "referenceName" : "Unlock everything",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
